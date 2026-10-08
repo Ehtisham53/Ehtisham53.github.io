@@ -7,5 +7,16 @@
       "sha256_cert_fingerprints":
         ["F6:40:1D:DC:B8:3F:71:11:BD:0E:47:F4:CC:15:FB:BE:F0:44:1E:C7:FC:34:05:57:BF:40:E8:E8:A2:67:8C:32"]
     }
-  }
+  }, 
+    {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tailorhub.app",
+      "sha256_cert_fingerprints": [
+        "37:86:BB:EF:C6:04:3B:F7:9D:AA:20:CB:25:D2:4F:9A:57:AA:40:56:E6:F0:D8:C1:B7:93:84:98:B9:D7:1D:7C",
+        "CF:10:21:18:2C:B3:2B:15:0D:D9:B3:C8:61:5A:62:65:78:A8:A7:2B:50:F8:99:75:24:DC:5F:43:56:C8:76:9C"
+      ]
+    }
+    }
 ]
